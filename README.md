@@ -5,7 +5,7 @@ This library makes it easier to implement CodeIgniter i18n function.
 ##How to use it?
 
 Drop the contents of the download zip into your application directory. add `$this -> load -> library('i18n');` at Controller's `__construct()` or 
-add `i18n` in `application/config/autoload.php` `$autoload['language'] = array('i18n');`
+add `i18n` in `application/config/autoload.php` `$autoload['libraries'] = array('i18n');`
 
 ##Turn on auto select language function
 
